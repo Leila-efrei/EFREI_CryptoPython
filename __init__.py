@@ -1,6 +1,5 @@
 from cryptography.fernet import Fernet
 from flask import Flask, render_template_string, render_template, jsonify, request
-import sqlite3
 
 app = Flask(__name__)
 
